@@ -34,7 +34,7 @@ namespace TPON.Test.Sample
 ```
 
 - Test Explorer를 실행합니다.
- - Test -> windows -> Test Explorer 를 실행합니다
+ - Test 메뉴 -> windows -> Test Explorer 를 실행합니다
  - 혹은 Quick Launch에서 test explorer를 검색합니다.
 ![image](uploads/MSTest 시작하기-3.png)
 
