@@ -1,10 +1,6 @@
-# 테스트 코드 초기화, 정리하기
+# 테스트 코드 Attributes
 
-테스트 코드 실행 전에, 시작 전후로 해야할 작업이 있을 수 있습니다. 초기화나 disconnect 같은 작업입니다. 아래의 2가지의 Attribute를 사용하면 됩니다.
-- TestInitialize : TestClass가 실행할 때, 초기화 코드로 지정
-- TestCleanup : TestMethod가 실행 후 종료한 뒤에 실행하는 코드
-
-코드 예시는 아래와 같습니다. TPON의 예시입니다.
+아래 코드는 TPON의 예시입니다.
 
 ```cs
 
@@ -59,17 +55,13 @@
 
 ```
 
-### Test Attribute 정리
-
-Test Attibute는 여러 케이스를 염두하여 만들어져 있습니다. 아래와 같이 정리합니다.
-
 #### TestMethod
 
-- 테스트용 메서드에 지정
+- 테스트 method드임을 지정하는 attribute
 
 #### TestClass
 
-- 테스트용 클래스에 지정
+- 테스트 class임을 지정하는 attribute
 
 #### ClassInitialize
 
