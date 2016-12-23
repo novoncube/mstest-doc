@@ -2,41 +2,14 @@
 
 ## 프로젝트 생성 방법
 
-1. 솔루션에 Test Project를 추가합니다.
+- 솔루션에 Test Project를 추가합니다.
 ![image](uploads/MSTest 시작하기-1.png)
 
-2. Reference에 테스트하고자 하는 프로젝트를 추가합니다.
+- Reference에 테스트하고자 하는 프로젝트를 추가합니다.
 ![image](uploads/MSTest 시작하기-2.png)
 
-3. 테스트용 클래스를 만듭니다.
-```cs
-namespace TPON.Test
-{
-    [TestClass]
-    public class NodeManagerHelper_Test
-    {
-    }
-}
-```
+- 아래와 같이 테스트 코드를 작성합니다.
 
-4. 테스트를 위한 코드를 추가합니다.
-```cs
-        [TestMethod]
-        public void HexaLengthNumber_6글자출력확인()
-        {
-            // Arrange
-            long num = 101;
-            string validResult = "000101";
-
-            // Act
-            var result = NodeManagerHelper.HexaLengthNumber(num);
-
-            // Assert
-            Assert.AreEqual(result, validResult);
-        }
-```
-
-5. 현재 코드는 이렇습니다.
 ```cs
 namespace TPON.Test.Sample
 {
@@ -60,12 +33,12 @@ namespace TPON.Test.Sample
 }
 ```
 
-6. Test Explorer를 실행합니다.
+- Test Explorer를 실행합니다.
  - Test -> windows -> Test Explorer 를 실행합니다
  - 혹은 Quick Launch에서 test explorer를 검색합니다.
 ![image](uploads/MSTest 시작하기-3.png)
 
-7. Test를 시작합니다.
+- Test를 시작합니다.
  - Run All : 모든 테스트를 시작합니다.
  - 특정 테스트만 실행하려면, 테스트 Item에 우클릭 후 `이 항목을 테스트하기`를 클릭합니다.
  - 디버깅 할 시엔, `이 항목을 디버깅하기`를 클릭합니다.
