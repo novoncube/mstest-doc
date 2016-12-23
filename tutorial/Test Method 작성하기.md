@@ -16,7 +16,7 @@
     }
 ```
 
-위와 같이 테스트 메서드를 생성합니다. AAA Pattern 에 따라 작성합니다.
+위와 같이 테스트 메서드를 생성합니다. (AAA Pattern)[http://wiki.c2.com/?ArrangeActAssert] 에 따라 작성합니다.
 
 ```cs
     [TestClass]
