@@ -2,10 +2,10 @@
 
 ## 프로젝트 생성 방법
 
-1. 솔루션에 Test Project를 추가한다.
+1. 솔루션에 Test Project를 추가합니다.
 ![image](uploads/MSTest 시작하기-1.png)
 
-2. Reference에 테스트하고자 하는 프로젝트를 추가한다.
+2. Reference에 테스트하고자 하는 프로젝트를 추가합니다.
 ![image](uploads/MSTest 시작하기-2.png)
 
 3. 테스트용 클래스를 만듭니다.
