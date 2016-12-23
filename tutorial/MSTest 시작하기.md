@@ -51,10 +51,3 @@ The referenced project 'TPON' is targeting a higher framework version (4.6.1) th
 ```
  - 테스트 프로젝트와 타겟 프로젝트의 버전이 맞지 않아 발생하는 에러입니다. 프로젝트 속성에서 .NET framework 버전을 4.6.1로 변경합니다.
 ![image](uploads/MSTest 시작하기-5.png)
-
-#### 다음 문서
-##### [테스트 코드 초기화, 정리하기]
-
-
-##### [Test Method 작성하기]
- 
