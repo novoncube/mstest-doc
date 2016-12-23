@@ -43,4 +43,4 @@ Assert class를 이용하여 테스트 결과 값을 검증할 수 있습니다.
 
 Assert class에 대한 자세한 설명은 아래의 링크를 참조하시길 바랍니다.
 
-[Assert class](https://msdn.microsoft.com/ko-kr/library/microsoft.visualstudio.testtools.unittesting.assert.aspx)
+[Assert class](https://msdn.microsoft.com/en-us/library/ms182530.aspx?f=255&MSPPError=-2147217396)
