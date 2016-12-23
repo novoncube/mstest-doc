@@ -45,7 +45,7 @@ namespace TPON.Test.Sample
  - [MSDN 문서 참고](https://msdn.microsoft.com/ko-kr/library/hh212233.aspx)
 ![image](uploads/MSTest 시작하기-4.png)
 
- - 혹시 아래와 같은 에러 메세지가 뜨시나요?
+- 혹시 아래와 같은 에러 메세지가 뜨시나요?
 ```
 The referenced project 'TPON' is targeting a higher framework version (4.6.1) than this project’s current target framework version (4.5.2). This may lead to build failures if types from assemblies outside this project’s target framework are used by any project in the dependency chain.	TPON.Test.Sample
 ```
