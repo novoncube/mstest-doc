@@ -37,6 +37,10 @@
     }
 ```
 
-Assert 클래스를 이용하여 특정 값을 검증할 수 있습니다. 위 코드는 숫자 값을 받아, 6자리 숫자로 된 문자열을 만드는 코드를 검증하는 테스트 코드입니다.
+위 코드는 6자리 숫자 문자열 생성에 대한 테스트 코드입니다. 
 
-[Assert 클래스 참고](https://msdn.microsoft.com/ko-kr/library/microsoft.visualstudio.testtools.unittesting.assert.aspx)
+Assert class를 이용하여 테스트 결과 값을 검증할 수 있습니다. 
+
+Assert class에 대한 자세한 설명은 아래의 링크를 참조하시길 바랍니다.
+
+[Assert class](https://msdn.microsoft.com/ko-kr/library/microsoft.visualstudio.testtools.unittesting.assert.aspx)
